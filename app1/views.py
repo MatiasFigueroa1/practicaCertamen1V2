@@ -4,7 +4,7 @@ from django.http import HttpResponse
 
 def vista1(request):
     html="""
-    <h1 style="color=red">Estás en la vista 1</h1>
+    <h1 style="color:blue">Estás en la vista 1</h1>
 """
 
     return HttpResponse(html)
